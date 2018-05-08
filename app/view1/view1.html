@@ -1,1 +1,237 @@
-<p>This is the partial for view 1.</p>
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
+  <link rel="stylesheet" href="app.css">
+  <script src="path/to/dist/feather.js"></script>
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script> 
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+
+<!-- navbar -->
+<body>
+<nav class="navbar">
+  
+    <div class="container">
+      
+      <h1 class="logo"><a href="#">My Work Page</a></h1>
+      <ul class="nav nav-right">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+        <li>Logout</li>
+    
+      </ul>
+    </div><!--/.container-->
+    
+  </nav><!--/.navbar-->
+  <nav class="navbar">
+
+  
+
+    
+      <ul class="nav nav-center">
+        <li><a href="#">Recents</a></li>
+        <li><a href="#">Approaching</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">Activities</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Notifications</a></li>
+      </ul>
+ 
+
+  </nav><!--/.navbar-->
+</div>
+
+
+
+ 
+
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <md-button class="md-icon-button" aria-label="Settings">
+        <md-icon md-svg-icon="./bower_components/material-design-icons/maps/svg/design/ic_local_airport_24px.svg"></md-icon>
+      </md-button>
+      <h2>
+        
+        <div class="mui-appbar">
+          <table width="100%">
+          
+        
+          </table>
+        </div>
+      </h2>
+    </div>
+  </md-toolbar>
+
+
+
+
+
+
+<p class="md-display-3"> hi </p>
+
+
+
+<fieldset class="standard">
+  
+  <div layout-wrap layout-gt-sm="row" >
+    <div flex-gt-sm="50">
+      <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
+        Checkbox 1: {{ data.cb1 }}
+      </md-checkbox>
+    </div>
+    <div flex-gt-sm="50">
+      <div>
+      
+    </div>
+  </div>
+</fieldset>
+<fieldset class="standard">
+  
+  <div layout-wrap layout-gt-sm="row" >
+    <div flex-gt-sm="50">
+      <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
+        Checkbox 2: {{ data.cb1 }}
+      </md-checkbox>
+    </div>
+    <div flex-gt-sm="50">
+      <div>
+      
+    </div>
+  </div>
+</fieldset>
+<md-list>
+<md-list-item>
+  <p>Click anywhere to fire the secondary action</p>
+  <md-menu class="md-secondary">
+    <md-button class="md-icon-button">
+      <md-icon md-svg-icon="communication:message"></md-icon>
+    </md-button>
+    <md-menu-content width="4">
+      <md-menu-item>
+        <md-button>
+          Redial
+        </md-button>
+      </md-menu-item>
+      <md-menu-item>
+        <md-button>
+          Check voicemail
+        </md-button>
+      </md-menu-item>
+      <md-menu-divider></md-menu-divider>
+      <md-menu-item>
+        <md-button>
+          Notifications
+        </md-button>
+      </md-menu-item>
+    </md-menu-content>
+  </md-menu>
+</md-list-item>
+<md-list-item>
+  <p>Click anywhere to fire the secondary action</p>
+  <md-menu class="md-secondary">
+    <md-button class="md-icon-button">
+      <md-icon md-svg-icon="communication:message"></md-icon>
+    </md-button>
+    <md-menu-content width="4">
+      <md-menu-item>
+        <md-button>
+          Redial
+        </md-button>
+      </md-menu-item>
+      <md-menu-item>
+        <md-button>
+          Check voicemail
+        </md-button>
+      </md-menu-item>
+      <md-menu-divider></md-menu-divider>
+      <md-menu-item>
+        <md-button>
+          Notifications
+        </md-button>
+      </md-menu-item>
+    </md-menu-content>
+  </md-menu>
+</md-list-item>
+<md-list-item>
+  <span>Single Row Item</span>
+</md-list-item>
+</md-list>
+
+<div id="containerList">
+  <div class="list-view-names">
+    <ul>
+    	<li>
+        <span class="avatar"></span>
+        <span class="name">Wilfrid Wolfgang</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Mathias Bristol</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Tristin Bentley</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Edgar Roger</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Alois Ilya</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Gunter Darden</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Dwayne Thorben</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Waylon Thierry</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Waylon Thierry</span>
+      </li>
+      <li>
+        <span class="avatar"></span>
+        <span class="name">Waylon Thierry</span>
+      </li>
+    </ul>
+  </div>
+  <div class="details-view">
+    <div class="back"></div>
+    <div class="background"></div>
+    <ul>
+    	<li><i class="fa fa-video-camera"></i>Chat</li>
+    	<li><i class="fa fa-envelope"></i>blah@gmail.com</li>
+    	<li><i class="fa fa-mobile"></i>(593)273-2847</li>
+    	<li><i class="fa fa-home"></i>(328)723-1794</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+  
+</html>
+
+    
+
